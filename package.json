@@ -4,11 +4,25 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.18.2",
+    "inquirer": "^8.2.4",
+    "uuid": "^8.3.0",
+    "v1": "^1.0.0",
+    "v4": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewguyenGitHub/Note-Taker-Refractor.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/NewguyenGitHub/Note-Taker-Refractor/issues"
+  },
+  "homepage": "https://github.com/NewguyenGitHub/Note-Taker-Refractor#readme"
 }
